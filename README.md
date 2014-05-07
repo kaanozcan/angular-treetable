@@ -6,15 +6,13 @@ Basicly append an element with tree, records and model attributes. tree attribut
   
 model attribute syntax:  
 $scope.model = {  
-  
-  propertyName: 'Label'
+  propertyName: 'Label'  
 };  
   
 records syntax:  
 $scope.records = [  
-  
-  property: 'value'  
-  children: []
+  property: 'value',  
+  children: []  
 ]  
   
 html  
