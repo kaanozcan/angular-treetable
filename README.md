@@ -1,6 +1,6 @@
 ### Angular Tree Table  
   
-This is a simple Tree Table for Angularjs  
+This is a simple Tree Table for Angularjs which displays and filters both  parent and children objects dynamically creating fields and filters using the object model passed to it.  
   
 Basicly append an element with tree, records and model attributes. tree attribute can be blank, records attribute will point out to the record list on your scope, and model attribute will point out to your model.  
   
