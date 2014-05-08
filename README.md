@@ -15,10 +15,10 @@ $scope.model = {
 records syntax:
 
 ```
-$scope.records = {
+$scope.records = [{
   property: 'value',  
   children: []  
-}
+}]
 ```
 
   
