@@ -27,3 +27,48 @@ html
 ```
 <div tree model="model" records="records"></div>
 ```
+  
+Example
+
+```
+$scope.myModel = {
+  name: 'Name',
+  type: 'Type Name',
+  crDate: 'Creation Date'
+};
+
+$scope.myRecords = [{
+  name: 'Files',
+  type: 'Folder',
+  crDate: '10.10.2014',
+  children: [{
+    name: 'Uncle',
+    type: 'Image',
+    crDate: '11.10.2014',
+    children: []
+  }, {
+    name: 'Sister',
+    type: 'Image',
+    crDate: '11.10.2014',
+    children: []
+  }, {
+    name: 'Brother',
+    type: 'Image',
+    crDate: '11.10.2014',
+    children: []
+  }, {
+    name: '12.10.2014 trip',
+    type: 'Folder',
+    crDate: '12.10.2014'
+    children: [{
+      name: '12.10.2014_trip78m',
+      type: 'Video',
+      crDate: '12.10.2014'
+      children: [
+    }]
+  }]
+}];
+
+<div tree model="myModel" records="myRecords"></div>
+
+```
