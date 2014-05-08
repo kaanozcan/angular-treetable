@@ -63,8 +63,8 @@ $scope.myRecords = [{
     children: [{
       name: '12.10.2014_trip78m',
       type: 'Video',
-      crDate: '12.10.2014'
-      children: [
+      crDate: '12.10.2014',
+      children: []
     }]
   }]
 }];
