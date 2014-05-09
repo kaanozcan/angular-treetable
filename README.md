@@ -28,6 +28,13 @@ html
 <div tree model="model" records="records"></div>
 ```
   
+Road Map
+
+inline edit
+form templates
+custom cells rows
+  
+  
 Example
 
 ```
