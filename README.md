@@ -4,6 +4,8 @@ This is a simple Tree Table for Angularjs which displays and filters both  paren
   
 Basicly append an element with tree, records and model attributes. tree attribute can be blank, records attribute will point out to the record list on your scope, and model attribute will point out to your model.  
   
+Bootstrap needed for + button and input elements you can change the button completely and remove classes from inputs
+  
 model attribute syntax:  
 
 ```
